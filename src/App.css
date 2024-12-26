@@ -1,0 +1,32 @@
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.digital-clock{
+width: 400px;
+color: #fff;
+padding: 20px;
+border-radius: 4px;
+text-align: center;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+  color: orangered;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 15Px;
+}
+.time{
+  margin-bottom: 15Px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.date{
+  color: #888;
+  font-size: 20px;
+  }
